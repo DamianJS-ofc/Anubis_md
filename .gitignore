@@ -1,0 +1,9 @@
+node_modules/
+.npm/
+tmp/
+auth_info/
+.nyx
+.DS_Store
+*.log
+session/
+.env

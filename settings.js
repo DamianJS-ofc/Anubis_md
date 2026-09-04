@@ -1,0 +1,26 @@
+export default {
+  botName: 'ᴀɴᴜʙɪs',
+  version: '3.0.0 WaSocket',
+  botType: 'ᴘʀɪɴᴄɪᴘᴀʟ',
+  bannerUrl: 'https://cdn.jsdelivr.net/gh/devleothedamian-cpu/anubistourlimg@main/tourl/1788485407865-648.jpeg',
+  prefixes: ['!', '.', '#', '-'],
+  owner: [
+    '5492645746772',
+    '140888466575588',
+    '140888466575588@lid',
+    '16194144698',
+  ],
+  channelId: '120363425415754278@newsletter',
+  channelName: 'ANUBIS BOT',
+  channelLink: 'https://whatsapp.com/channel/0029Vb6D8o67Noa8y78x5A1d',
+  githubToken: process.env.TOURL_TOKEN || process.env.GITHUB_TOKEN || '',
+  githubRepo: process.env.GITHUB_REPO || 'devleothedamian-cpu/anubistourlimg',
+  githubBranch: 'main',
+  githubFolder: 'tourl',
+  economy: {
+    initialCoins: 1000,
+    minBet: 100,
+  },
+  packName: 'ANUBIS',
+  author: 'Anubis Team',
+}
