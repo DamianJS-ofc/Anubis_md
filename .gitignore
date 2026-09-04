@@ -1,9 +1,6 @@
 node_modules/
-.npm/
-tmp/
 auth_info/
-.nyx
-.DS_Store
-*.log
+.nyx/
 session/
+tmp/
 .env
