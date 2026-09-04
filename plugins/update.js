@@ -25,27 +25,30 @@ export default{
       execSync('git config user.email "anubis@bot.com"')
       execSync('git config user.name "Anubis"')
 
-      // chequear si hay cambios
       let status = execSync('git status --porcelain').toString().trim()
       if(!status){
         return sock.sendMessage(jid,{text:`🔍 Estado todo actualizado`},{quoted:msg})
       }
 
-      execSync('git add.')
-      try{execSync(`git commit -m "${commitMsg.replace(/"/g,"'")}"`)}catch{}
+      // FIX: era 'git add.' sin espacio
+      execSync('git add .')
+      try{execSync(`git commit -m "${commitMsg.replace(/"/g,"'")}"`)}catch(e){
+        if(String(e.message).includes('nothing to commit')){
+          return sock.sendMessage(jid,{text:`🔍 Nada para commitear`},{quoted:msg})
+        }
+      }
 
       let token=process.env.TOURL_TOKEN||process.env.GITHUB_TOKEN
       if(token){execSync(`git remote set-url origin https://${token}@github.com/DamianJS-ofc/Anubis_md.git`)}
 
       execSync('git push origin main')
-      await sock.sendMessage(jid,{text:`🚀 Actualizado`},{quoted:msg})
+      await sock.sendMessage(jid,{text:`🚀 Actualizado: ${commitMsg}`},{quoted:msg})
 
     }catch(e){
-      // si ya está actualizado git tira ese error
-      if(e.message.includes('up-to-date') || e.message.includes('Everything')){
+      if(e.message.includes('up-to-date') || e.message.includes('Everything') || e.message.includes('up to date')){
         return sock.sendMessage(jid,{text:`🔍 Estado todo actualizado`},{quoted:msg})
       }
-      sock.sendMessage(jid,{text:`❌ ${e.message.slice(0,300)}`},{quoted:msg})
+      await sock.sendMessage(jid,{text:`❌ Error:\n${e.message.slice(0,500)}`},{quoted:msg})
     }
   }
 }

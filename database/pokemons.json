@@ -1,0 +1,22 @@
+{
+  "groups": {
+    "120363410524667100@g.us": {
+      "users": {
+        "5492645746772@s.whatsapp.net": {
+          "balls": 15,
+          "coins": 200,
+          "pokes": [
+            {
+              "id": 2,
+              "name": "ivysaur",
+              "lvl": 1,
+              "power": 125
+            }
+          ],
+          "name": "DamianJS-ofc"
+        }
+      },
+      "wild": null
+    }
+  }
+}
