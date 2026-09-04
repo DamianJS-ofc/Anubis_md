@@ -7,6 +7,8 @@
     "@napi-rs/canvas": "^1.0.8",
     "@octokit/rest": "^22.0.1",
     "baileys": "github:this-xys/WaSocket",
+    "moment": "*",
+    "gradient-string": "*",
     "canvas": "^3.2.3",
     "chalk": "^4.1.2",
     "i": "^0.3.7",

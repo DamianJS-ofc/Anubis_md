@@ -29,9 +29,34 @@
               "name": "ivysaur",
               "lvl": 1,
               "power": 125
+            },
+            {
+              "id": 81,
+              "name": "magnemite",
+              "lvl": 1,
+              "power": 105
             }
           ],
           "name": "DamianJS-ofc"
+        },
+        "51917162007@s.whatsapp.net": {
+          "balls": 15,
+          "coins": 200,
+          "pokes": [
+            {
+              "id": 15,
+              "name": "beedrill",
+              "lvl": 1,
+              "power": 130
+            },
+            {
+              "id": 91,
+              "name": "cloyster",
+              "lvl": 1,
+              "power": 275
+            }
+          ],
+          "name": "...."
         }
       },
       "wild": null

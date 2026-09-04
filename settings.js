@@ -4,12 +4,7 @@ export default {
   botType: 'ᴘʀɪɴᴄɪᴘᴀʟ',
   bannerUrl: 'https://cdn.jsdelivr.net/gh/devleothedamian-cpu/anubistourlimg@main/tourl/1788485407865-648.jpeg',
   prefixes: ['!', '.', '#', '-'],
-  owner: [
-    '5492645746772',
-    '140888466575588',
-    '140888466575588@lid',
-    '16194144698',
-  ],
+  owner: ['5492645746772', '5219992042946', '140888466575588', '140888466575588@lid', '16194144698'],
   channelId: '120363425415754278@newsletter',
   channelName: 'ANUBIS BOT',
   channelLink: 'https://whatsapp.com/channel/0029Vb6D8o67Noa8y78x5A1d',

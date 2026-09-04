@@ -19,6 +19,62 @@
       "reservedBy": "140888466575588@lid",
       "reservedUntil": 1788505546130,
       "claimed": true
+    },
+    "3EB0C57E65FE0F622B5EC7": {
+      "id": "666310",
+      "charKey": "120363429334932209@g.us__666310",
+      "name": "Gloom",
+      "expiresAt": 1788544272321,
+      "reservedBy": "140888466575588@lid",
+      "reservedUntil": 1788544232321,
+      "claimed": true
+    }
+  },
+  "120363410592073980@g.us": {
+    "3EB0D8DB383F63C9C1F2DF": {
+      "id": "651604",
+      "charKey": "120363410592073980@g.us__651604",
+      "name": "Magmar",
+      "expiresAt": 1788540951729,
+      "reservedBy": "140888466575588@lid",
+      "reservedUntil": 1788540911729,
+      "claimed": true
+    },
+    "3EB0014384B520FF5AC984": {
+      "id": "130644",
+      "charKey": "120363410592073980@g.us__130644",
+      "name": "Sakura",
+      "expiresAt": 1788545099346,
+      "reservedBy": "140888466575588@lid",
+      "reservedUntil": 1788545059346,
+      "claimed": true
+    },
+    "3EB0363579A7E3C3385DE9": {
+      "id": "1200277",
+      "charKey": "120363410592073980@g.us__1200277",
+      "name": "Nelson",
+      "expiresAt": 1788545127884,
+      "reservedBy": "60503858663656@lid",
+      "reservedUntil": 1788545087884,
+      "claimed": true
+    },
+    "3EB0147EB5B59A3C87227D": {
+      "id": "432381",
+      "charKey": "120363410592073980@g.us__432381",
+      "name": "Himari Azuma",
+      "expiresAt": 1788548002709,
+      "reservedBy": "60503858663656@lid",
+      "reservedUntil": 1788547962709,
+      "claimed": true
+    },
+    "3EB03E02E75F5F731026A3": {
+      "id": "1111135",
+      "charKey": "120363410592073980@g.us__1111135",
+      "name": "Cleopatra",
+      "expiresAt": 1788549652181,
+      "reservedBy": "5491135994134@s.whatsapp.net",
+      "reservedUntil": 1788549612181,
+      "claimed": true
     }
   }
 }
