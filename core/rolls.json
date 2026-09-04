@@ -1,0 +1,24 @@
+{
+  "120363410524667100@g.us": {
+    "3EB06EA0B53230C4E8D85C": {
+      "id": "1200149",
+      "charKey": "120363410524667100@g.us__1200149",
+      "name": "Guilty",
+      "expiresAt": 1788505544136,
+      "reservedBy": "140888466575588@lid",
+      "reservedUntil": 1788505504136,
+      "claimed": true
+    }
+  },
+  "120363429334932209@g.us": {
+    "3EB087499ED657CAFFC889": {
+      "id": "140707",
+      "charKey": "120363429334932209@g.us__140707",
+      "name": "Charlotte Roselei",
+      "expiresAt": 1788505586130,
+      "reservedBy": "140888466575588@lid",
+      "reservedUntil": 1788505546130,
+      "claimed": true
+    }
+  }
+}
